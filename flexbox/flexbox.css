@@ -1,0 +1,12 @@
+div {
+	display: flex;
+	flex-direction: column;
+	border: solid 1px red;
+}
+
+div .flex-square {
+	width: 20px;
+	height: 20px;
+	border: solid 1px black;
+	background-color: aquamarine;
+}
