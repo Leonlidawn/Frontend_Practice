@@ -116,7 +116,13 @@ const car = {
 }
 
 
-// === class 5
+
+
+
+
+//=================== class 5=======================================================
+//==================================================================================
+
 // 1. Implement a Person class. We need to store height, weight and BMI data in the class. We do not want other people to access weight directly and we want to calculate BMI based on height and weight. Make sure you can change height and weight anytime after the instance is initialised.
 // Bonus 1: Make sure the height is always between 0 – 300 cm. Make sure the weight is always between 0 and 1000kg.
 // Bonus 2: Assume that the person’s height is fixed. Allow set weight based on BMI.
@@ -248,6 +254,12 @@ function isLeapYear(year) {
 }
 
 
+
+
+
+
+//=================== tute 1 =======================================================
+//==================================================================================
 //tute exercise
 function func(a) {
   let b = a.split(' ');
