@@ -1,12 +1,50 @@
-div {
-	display: flex;
-	flex-direction: column;
-	border: solid 1px red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-div .flex-square {
-	width: 20px;
-	height: 20px;
-	border: solid 1px black;
-	background-color: aquamarine;
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+	padding: 20px 0;
+	display:flex;
+	justify-content: center;
+}
+
+.menu {
+  border: 1px solid #fff;  /* For debugging */
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links{
+	display:flex;
+	border:1px solid black;
+	justify-content: flex-end;
+}
+
+.login{
+	margin-left: 20px;
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+}
+.social,
+.logo,
+.subscribe {
+  border: 1px solid #5995DA;
 }
