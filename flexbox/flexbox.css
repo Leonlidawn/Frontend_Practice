@@ -48,3 +48,53 @@
 .subscribe {
   border: 1px solid #5995DA;
 }
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+.first-item{
+	order: -1;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  border: 1px solid black;
+  background-color: grey;
+  height: 200px;
+}
+
+
+.footer-one,
+.footer-three {
+	/* initial mean 0 1 auto */
+  flex: initial; 
+  width: 300px;
+}
+.signup {
+  margin-left: auto;
+}
+
